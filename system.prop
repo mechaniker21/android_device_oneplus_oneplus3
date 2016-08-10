@@ -130,3 +130,5 @@ camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp,
 
 # Wifi
 wifi.interface=wlan0
+# VM
+dalvik.vm.dex2oat-swap=false
