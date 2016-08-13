@@ -29,6 +29,12 @@
    "target_path": "vendor/nxp-nfc/opensource/Nfc",
    "branch":      "cm-13.0"
  },
+  {
+    "remote": "emotroid",
+    "repository": "Emotroid-Rom/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "mm"
+  },
  {
    "remote":"emotroid",
    "repository": "Emotroid-Rom/proprietary_vendor_oneplus",
