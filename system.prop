@@ -128,5 +128,12 @@ persist.data.df.dev_name=rmnet_usb0
 # Timeservice
 persist.timed.enable=true
 
+#force HAL1 for some apps
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp,
+    com.instagram.android,com.snapchat.android,org.codeaurora.snapcam,
+    com.google.android.GoogleCamera,com.facebook.orca,com.facebook.katana,
+    com.flavionet.android.camera.lite,com.nianticlabs.pokemongo
+
+
 # Wifi
 wifi.interface=wlan0
