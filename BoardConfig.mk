@@ -190,6 +190,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/qcom/common
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+TW_THEME := portrait_hdpi
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
