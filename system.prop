@@ -1,3 +1,5 @@
+ro.display.series=OnePlus 3
+
 # Audio
 ro.qc.sdk.audio.ssr=false
 ro.qc.sdk.audio.fluencetype=fluence
@@ -30,10 +32,10 @@ bt.max.hfpclient.connections=1
 qcom.bluetooth.soc=rome
 
 # Camera
-camera.disable_zsl_mode=1
 persist.camera.imglib.fddsp=1
 persist.camera.llc=1
 persist.camera.llnoise=1
+camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.tencent.mm,com.google.android.GoogleCamera
 
 # Display power reduction (FOSS)
 ro.qcom.dpps.sensortype=3
@@ -70,9 +72,6 @@ persist.sys.wfd.virtual=0
 sdm.perf_hint_window=50
 persist.hwc.enable_vds=1
 sdm.debug.disable_rotator_split=1
-
-# Media
-media.camera.ts.monotonic=false
 
 # NFC
 ro.nfc.port=I2C
@@ -129,13 +128,6 @@ persist.data.df.dev_name=rmnet_usb0
 
 # Timeservice
 persist.timed.enable=true
-
-#force HAL1 for some apps
-camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp,
-    com.instagram.android,com.snapchat.android,org.codeaurora.snapcam,
-    com.google.android.GoogleCamera,com.facebook.orca,com.facebook.katana,
-    com.flavionet.android.camera.lite,com.nianticlabs.pokemongo
-
 
 # Wifi
 wifi.interface=wlan0
