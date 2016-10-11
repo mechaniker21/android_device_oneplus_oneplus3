@@ -36,6 +36,11 @@
     "branch": "cm-14.0"
   },
  {
+   "repository": "Emotroid-Rom/proprietary_vendor_qcom_binaries",
+   "target_path": "vendor/qcom/binaries",
+   "branch":      "nougat"
+ },
+ {
    "remote":"emotroid",
    "repository": "Emotroid-Rom/proprietary_vendor_oneplus",
    "target_path": "vendor/oneplus",
